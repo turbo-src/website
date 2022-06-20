@@ -1,19 +1,22 @@
 {
-  "name": "turbo-src-website",
+  "name": "website",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server"
   },
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turbo-src/website.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/turbo-src/website/issues"
   },
   "homepage": "https://github.com/turbo-src/website#readme",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
