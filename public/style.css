@@ -48,9 +48,21 @@ a:hover {
     overflow: hidden;
 }
 .nav a:hover{
-    border-bottom: 1px solid var(--primary);
     color: var(--primary);
 }
+.login {
+    border: 1px solid var(--secondary);
+    padding: .3rem .6rem .3rem .6rem;
+    background-color: var(--secondary);
+  }
+  .login a {
+    color: #FFF;
+  }
+  .signup {
+    border: 1px solid var(--secondary);
+    padding: .3rem;
+    background-color: #FFF;
+  }
 .mobileNav {
     display: none;
     flex-direction: column;
@@ -67,6 +79,7 @@ a:hover {
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     overflow: hidden;
 }
+
 .search input {
     width: 50%;
     padding: 1rem;
