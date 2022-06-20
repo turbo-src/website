@@ -302,8 +302,11 @@ a:hover {
         background-color: #FFF;
         box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
       }
-      .menu span {
+      .menu span:first-child {
         flex-direction: column;
+      }
+      .menu span:last-child {
+        justify-content: center;
       }
       .menu span li {
         height: 2rem;
